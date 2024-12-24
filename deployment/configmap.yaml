@@ -1,17 +1,17 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: <NAME OF THE ConfigMap>
+  name: db-env
 data:
   DB_NAME: mydatabase
   DB_USER: myuser
-  DB_HOST: 192.168.3.113
-  DB_PORT: 5432
+  DB_HOST: '127.0.0.1'
+  DB_PORT: '5432'
 ---
 apiVersion: v1
 kind: Secret
 metadata:
-  name: mySecret
+  name: mysecret
 type: Opaque
 data:
-  <THE KEY FROM Secret WHICH has THE ENCODED PASSWORD>: bXlwYXNzd29yZA==
+  passwordkey: bXlwYXNzd29yZA==
