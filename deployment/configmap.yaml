@@ -14,4 +14,4 @@ metadata:
   name: mysecret
 type: Opaque
 data:
-  passwordkey: bXlwYXNzd29yZA==
+  DB_PASSWORD: bXlwYXNzd29yZA==
