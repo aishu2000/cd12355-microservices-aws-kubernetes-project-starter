@@ -15,4 +15,4 @@ This service follows a microservice pattern and the APIs are split into distinct
   - Created the ECR repository to store the images
   - Created the Codebuild broject to automate teh deployment process
 - Deployed the application
-- Setuped the cloudwatch for logging
+- Set up the cloudwatch for logging
